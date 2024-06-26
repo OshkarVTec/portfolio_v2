@@ -5,9 +5,6 @@ function App() {
 				<div className="w-1/2 h-screen flex justify-center items-center">
 					<ul className="list-none text-3xl font-bold h-auto">
 						<li className="my-1 p-2 hover:bg-black hover:text-white">
-							Portfolio
-						</li>
-						<li className="my-1 p-2 hover:bg-black hover:text-white">
 							Projects
 						</li>
 						<li className="my-1 p-2 hover:bg-black hover:text-white">
