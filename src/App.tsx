@@ -2,12 +2,22 @@ function App() {
 	return (
 		<>
 			<div className="flex">
-				<div className="w-1/2 h-screen">
-					<ul className="list-none">
+				<div className="w-1/2 h-screen flex justify-center p-96">
+					<ul className="list-none text-3xl flex flex-col gap-4">
 						<li>Portfolio</li>
+						<li>Projects</li>
+						<li>Experience</li>
+						<li>Skills</li>
+						<li>Education</li>
+						<li>Contact</li>
 					</ul>
 				</div>
-				<div className="w-1/2 h-screen bg-black animate-slideInLeft"></div>
+				<div className="w-1/2 h-screen bg-black animate-slideInLeft flex flex-col justify-center items-center">
+					<div>
+						<p className="text-7xl text-white">Oskar Villa</p>
+						<p className="text-3xl text-white">Software Developer</p>
+					</div>
+				</div>
 			</div>
 		</>
 	);
