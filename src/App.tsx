@@ -4,12 +4,22 @@ function App() {
 			<div className="flex">
 				<div className="w-1/2 h-screen flex justify-center items-center">
 					<ul className="list-none text-3xl font-bold h-auto">
-						<li className="py-2">Portfolio</li>
-						<li className="py-2">Projects</li>
-						<li className="py-2">Experience</li>
-						<li className="py-2">Skills</li>
-						<li className="py-2">Education</li>
-						<li className="py-2">Contact</li>
+						<li className="my-1 p-2 hover:bg-black hover:text-white">
+							Portfolio
+						</li>
+						<li className="my-1 p-2 hover:bg-black hover:text-white">
+							Projects
+						</li>
+						<li className="my-1 p-2 hover:bg-black hover:text-white">
+							Experience
+						</li>
+						<li className="my-1 p-2 hover:bg-black hover:text-white">Skills</li>
+						<li className="my-1 p-2 hover:bg-black hover:text-white">
+							Education
+						</li>
+						<li className="my-1 p-2 hover:bg-black hover:text-white">
+							Contact
+						</li>
 					</ul>
 				</div>
 				<div className="w-1/2 h-screen bg-black animate-slideInLeft flex justify-center items-center">
