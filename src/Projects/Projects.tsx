@@ -42,27 +42,27 @@ export default function Projects() {
 			</div>
 			<Slider ref={slider} {...settings} className="z-[800]">
 				<div>
-					<div className="border-2 border-black h-96 w-full bg-red-100">
+					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
 						<h3>1</h3>
 					</div>
 				</div>
 				<div>
-					<div className="border-2 border-black h-96 w-full bg-white">
+					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
 						<h3>2</h3>
 					</div>
 				</div>
 				<div>
-					<div className="border-2 border-black h-96 w-full bg-white">
+					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
 						<h3>3</h3>
 					</div>
 				</div>
 				<div>
-					<div className="border-2 border-black h-96 w-full bg-white">
+					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
 						<h3>4</h3>
 					</div>
 				</div>
 				<div>
-					<div className="border-2 border-black h-96 w-full bg-white">
+					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
 						<h3>5</h3>
 					</div>
 				</div>
