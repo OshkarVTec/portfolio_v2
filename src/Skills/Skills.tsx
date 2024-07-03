@@ -3,7 +3,7 @@ import { skillsData } from "../data/skills.tsx";
 
 export default function Skills() {
 	return (
-		<div className="h-auto">
+		<section id="skills">
 			<Subtitle>Skills</Subtitle>
 
 			<div className="flex flex-wrap justify-around m-6">
@@ -20,6 +20,6 @@ export default function Skills() {
 					);
 				})}
 			</div>
-		</div>
+		</section>
 	);
 }

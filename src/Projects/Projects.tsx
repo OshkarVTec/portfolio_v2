@@ -28,7 +28,7 @@ export default function Projects() {
 		slider?.current?.slickNext();
 	};
 	return (
-		<div className="h-screen">
+		<section id="projects" className="h-screen">
 			<div>
 				<Subtitle>Projects</Subtitle>
 			</div>
@@ -67,6 +67,6 @@ export default function Projects() {
 					</div>
 				</div>
 			</Slider>
-		</div>
+		</section>
 	);
 }
