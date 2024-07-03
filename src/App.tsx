@@ -1,3 +1,4 @@
+import Contact from "./Contact/Contact";
 import Education from "./Education/Education";
 import Experience from "./Experience/Experience";
 import Hero from "./Hero/Hero";
@@ -12,6 +13,7 @@ function App() {
 			<Experience />
 			<Skills />
 			<Education />
+			<Contact />
 		</>
 	);
 }
