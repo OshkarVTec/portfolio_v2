@@ -4,7 +4,7 @@ export default function Hero() {
 	return (
 		<div className="flex">
 			<div className="w-1/2 h-screen flex justify-center items-center">
-				<ul className="list-none text-3xl font-bold h-auto">
+				<ul className="list-none text-3xl font-bold h-auto animate-slideInRight">
 					<li className="my-1 p-2 hover:bg-black hover:text-white">
 						<Link to="projects" smooth={true} duration={500}>
 							Projects
