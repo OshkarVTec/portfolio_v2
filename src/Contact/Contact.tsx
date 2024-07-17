@@ -3,7 +3,7 @@ import { SocialData } from "../data/social.tsx";
 
 export default function Contact() {
 	return (
-		<section id="contact">
+		<section id="contact" className="h-80">
 			<Subtitle>Contact</Subtitle>
 			<ul className="flex justify-around">
 				{SocialData.map((social) => (
