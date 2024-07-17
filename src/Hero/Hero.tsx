@@ -5,28 +5,53 @@ export default function Hero() {
 		<div className="flex">
 			<div className="w-1/2 h-screen flex justify-center items-center">
 				<ul className="list-none text-3xl font-bold h-auto animate-slideInRight">
-					<li className="my-1 p-2 hover:bg-black hover:text-white">
-						<Link to="projects" smooth={true} duration={500}>
+					<li className="my-6">
+						<Link
+							to="projects"
+							smooth={true}
+							duration={500}
+							className="p-2 hover:bg-black hover:text-white"
+						>
 							Projects
 						</Link>
 					</li>
-					<li className="my-1 p-2 hover:bg-black hover:text-white">
-						<Link to="experience" smooth={true} duration={500}>
+					<li className="my-6">
+						<Link
+							to="experience"
+							smooth={true}
+							duration={500}
+							className="p-2 hover:bg-black hover:text-white"
+						>
 							Experience
 						</Link>
 					</li>
-					<li className="my-1 p-2 hover:bg-black hover:text-white">
-						<Link to="skills" smooth={true} duration={500}>
+					<li className="my-6">
+						<Link
+							to="skills"
+							smooth={true}
+							duration={500}
+							className="p-2 hover:bg-black hover:text-white"
+						>
 							Skills
 						</Link>
 					</li>
-					<li className="my-1 p-2 hover:bg-black hover:text-white">
-						<Link to="education" smooth={true} duration={500}>
+					<li className="my-6">
+						<Link
+							to="education"
+							smooth={true}
+							duration={500}
+							className="p-2 hover:bg-black hover:text-white"
+						>
 							Education
 						</Link>
 					</li>
-					<li className="my-1 p-2 hover:bg-black hover:text-white">
-						<Link to="contact" smooth={true} duration={500}>
+					<li className="my-6">
+						<Link
+							to="contact"
+							smooth={true}
+							duration={500}
+							className="p-2 hover:bg-black hover:text-white"
+						>
 							Contact
 						</Link>
 					</li>
