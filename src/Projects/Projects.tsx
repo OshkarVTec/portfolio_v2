@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "./Projects.css";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import React from "react";
+import { projects } from "../data/projects.ts";
+import ProjectCard from "./ProjectCard.tsx";
 
 export default function Projects() {
 	const settings = {
@@ -41,31 +43,14 @@ export default function Projects() {
 				</button>
 			</div>
 			<Slider ref={slider} {...settings} className="z-[800]">
-				<div>
-					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
-						<h3>1</h3>
+				{projects.map((project) => (
+					<div
+						key={project.id}
+						className=" border-white h-96 w-full bg-black shadow-lg shadow-white"
+					>
+						<ProjectCard projectDetails={project} />
 					</div>
-				</div>
-				<div>
-					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
-						<h3>2</h3>
-					</div>
-				</div>
-				<div>
-					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
-						<h3>3</h3>
-					</div>
-				</div>
-				<div>
-					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
-						<h3>4</h3>
-					</div>
-				</div>
-				<div>
-					<div className=" border-white h-96 w-full bg-black shadow-lg shadow-white">
-						<h3>5</h3>
-					</div>
-				</div>
+				))}
 			</Slider>
 		</section>
 	);
