@@ -12,7 +12,7 @@ export default function Experience() {
 						key={experienceItem.name}
 					>
 						<div className="my-4">
-							<div className="flex justify-between">
+							<div className="flex justify-between items-center">
 								<h3 className="text-lg font-bold">{experienceItem.name}</h3>
 								<p className="text-sm">{experienceItem.date}</p>
 							</div>
