@@ -3,18 +3,8 @@ import { Link } from "react-scroll";
 export default function Hero() {
 	return (
 		<div className="flex">
-			<div className="w-1/2 h-screen flex justify-center items-center">
+			<div className="w-1/2 h-screen justify-center items-center hidden lg:flex">
 				<ul className="list-none text-3xl font-bold h-auto animate-slideInRight">
-					<li className="my-6">
-						<Link
-							to="projects"
-							smooth={true}
-							duration={500}
-							className="p-2 hover:bg-black hover:text-white"
-						>
-							Projects
-						</Link>
-					</li>
 					<li className="my-6">
 						<Link
 							to="experience"
@@ -33,6 +23,16 @@ export default function Hero() {
 							className="p-2 hover:bg-black hover:text-white"
 						>
 							Skills
+						</Link>
+					</li>
+					<li className="my-6">
+						<Link
+							to="projects"
+							smooth={true}
+							duration={500}
+							className="p-2 hover:bg-black hover:text-white"
+						>
+							Projects
 						</Link>
 					</li>
 					<li className="my-6">
@@ -57,9 +57,11 @@ export default function Hero() {
 					</li>
 				</ul>
 			</div>
-			<div className="w-1/2 h-screen bg-black animate-slideInLeft flex justify-center items-center">
-				<div>
-					<p className="text-7xl text-white font-bold">Oskar Villa</p>
+			<div className="w-full lg:w-1/2 lg:h-screen bg-black animate-slideInLeft flex justify-center items-center">
+				<div className="flex items-start flex-col p-10">
+					<p className="text-7xl text-white font-bold">
+						Oskar <br /> Villa
+					</p>
 					<p className="text-3xl text-white">Software Developer</p>
 				</div>
 			</div>
