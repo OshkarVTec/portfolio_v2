@@ -19,7 +19,7 @@
 	position: relative;
 	top: 0;
 	left: 0;
-	display: flex;
+	display: inline-flex;
 }
 .slick-slide div {
 	display: flex !important;
@@ -45,4 +45,16 @@
 	position: relative;
 	transform: scale(1.6) translateY(-100px);
 	z-index: 902;
+}
+
+@media (max-width: 1024px) {
+	.slick-center > div {
+		transform: scale(1.5);
+	}
+}
+
+@media (max-width: 1024px) {
+	.slick-slide.slick-active:not(.slick-center) > div {
+		transform: scale(1);
+	}
 }

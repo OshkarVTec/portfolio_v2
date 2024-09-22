@@ -17,12 +17,34 @@ export default function Projects() {
 		slidesToScroll: 1,
 		className: "center",
 		centerPadding: "100px",
+		responsive: [
+			{
+				breakpoint: 1024, // For screens smaller than 1024px
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 768, // For screens smaller than 768px
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+			{
+				breakpoint: 480, // For screens smaller than 480px
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				},
+			},
+		],
 	};
 
 	const slider = React.useRef<Slider | null>(null);
 
 	const leftArrow = () => {
-		console.log(slider?.current?.slickPrev());
 		slider?.current?.slickPrev();
 	};
 
@@ -30,7 +52,10 @@ export default function Projects() {
 		slider?.current?.slickNext();
 	};
 	return (
-		<section id="projects" className="h-screen">
+		<section
+			id="projects"
+			className="flex flex-col items-center lg:h-screen lg:block overflow-hidden"
+		>
 			<div>
 				<Subtitle>Projects</Subtitle>
 			</div>

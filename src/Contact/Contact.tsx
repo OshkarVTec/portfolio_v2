@@ -3,9 +3,9 @@ import { SocialData } from "../data/social.tsx";
 
 export default function Contact() {
 	return (
-		<section id="contact" className="h-80">
+		<section id="contact" className="flex flex-col items-center lg:block h-80">
 			<Subtitle>Contact</Subtitle>
-			<ul className="flex justify-around">
+			<ul className="flex justify-around gap-6">
 				{SocialData.map((social) => (
 					<li
 						key={social.platform}
