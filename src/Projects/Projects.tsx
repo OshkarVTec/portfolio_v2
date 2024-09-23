@@ -71,7 +71,7 @@ export default function Projects() {
 				{projects.map((project) => (
 					<div
 						key={project.id}
-						className=" border-white h-96 w-full bg-black shadow-lg shadow-white"
+						className=" border-white h-40 sm:h-80  w-full bg-black shadow-lg shadow-white"
 					>
 						<ProjectCard projectDetails={project} />
 					</div>
