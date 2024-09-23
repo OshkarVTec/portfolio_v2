@@ -1,4 +1,4 @@
-import Subtitle from "../common/Subtitle";
+import Subtitle from "../common/Subtitle.tsx";
 import { experienceData } from "../data/experience.ts";
 
 export default function Experience() {

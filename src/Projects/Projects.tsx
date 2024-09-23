@@ -1,4 +1,4 @@
-import Subtitle from "../common/Subtitle";
+import Subtitle from "../common/Subtitle.tsx";
 import Slider from "react-slick";
 import "./Projects.css";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";

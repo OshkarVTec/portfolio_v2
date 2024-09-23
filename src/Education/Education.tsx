@@ -1,4 +1,4 @@
-import Subtitle from "../common/Subtitle";
+import Subtitle from "../common/Subtitle.tsx";
 import { educationData } from "../data/education.ts";
 
 export default function Education() {

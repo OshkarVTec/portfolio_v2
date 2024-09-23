@@ -1,4 +1,4 @@
-import Subtitle from "../common/Subtitle";
+import Subtitle from "../common/Subtitle.tsx";
 import { skillsData } from "../data/skills.tsx";
 
 export default function Skills() {

@@ -1,9 +1,9 @@
-import Contact from "./Contact/Contact";
-import Education from "./Education/Education";
-import Experience from "./Experience/Experience";
-import Hero from "./Hero/Hero";
-import Projects from "./Projects/Projects";
-import Skills from "./Skills/Skills";
+import Contact from "./Contact/Contact.tsx";
+import Education from "./Education/Education.tsx";
+import Experience from "./Experience/Experience.tsx";
+import Hero from "./Hero/Hero.tsx";
+import Projects from "./Projects/Projects.tsx";
+import Skills from "./Skills/Skills.tsx";
 
 function App() {
 	return (
