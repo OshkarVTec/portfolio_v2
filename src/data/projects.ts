@@ -1,19 +1,11 @@
 import donacionesImage from "../assets/donaciones.png";
 export const projects = [
 	{
-		id: 1,
-		title: "Responsive portfolio page",
-		body: "My portfolio page is a showcase of my skills and accomplishments, designed and built using React and Vite. It's fully responsive, adapting seamlessly to various devices. The page incorporates a slider carousel, grids, and icons to enhance user experience and visual appeal. ",
-		tags: ["ReactJS", "Responsive Development", "Web Development"],
-		github: "https://github.com/OshkarVTec/Portfolio",
-		image:
-			"https://raw.githubusercontent.com/OshkarVTec/Portfolio/main/example.png",
-	},
-	{
 		id: 9,
 		title: "Donations Manager",
 		body: "A web app developed for Albergue del Hospital del Niño Poblano (Poblano Children's Hospital Shelter) to manage their donations. You can add donations and see reports of past transactions, as well as download the information in a CSV file. Built on React and Django. The web supports different user roles.",
 		tags: ["ReactJS", "Django", "Web Development"],
+		github: "https://github.com/OshkarVTec/donaciones_front",
 		image: donacionesImage,
 	},
 	{
