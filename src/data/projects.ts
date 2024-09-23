@@ -1,4 +1,4 @@
-import donacionesImage from "../assets/donaciones.jpg";
+import donacionesImage from "../assets/donaciones.png";
 export const projects = [
 	{
 		id: 1,
